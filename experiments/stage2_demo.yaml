@@ -1,0 +1,16 @@
+# Flat config file parsed by scripts/run_stage2_demo.py.
+user_id: 1
+stage: 2
+asset_dir: assets/stage2
+bins: 25
+sampling_rate_hz: 100
+observation_window_steps: 200
+inspection_interval_min_steps: 200
+inspection_interval_max_steps: 400
+inspection_random_seed: 13
+missing_zero_threshold: 100
+fusion_rule: product
+stay_safe_threshold: 0.5
+back_to_safe_threshold: 0.6
+normal_half_life_seconds: 10.0
+suspense_half_life_seconds: 4.0

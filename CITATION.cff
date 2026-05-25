@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the SSPRA paper."
+title: "SSPRA: A Robust Approach to Continuous Authentication Amidst Real-World Adversarial Challenges"
+authors:
+  - family-names: "Chen"
+    given-names: "Frank"
+  - family-names: "Xin"
+    given-names: "Jingyu"
+  - family-names: "Phoha"
+    given-names: "Vir V."
+doi: "10.1109/TBIOM.2024.3369590"
+date-released: "2024-02-27"
+url: "https://doi.org/10.1109/TBIOM.2024.3369590"
+preferred-citation:
+  type: article
+  title: "SSPRA: A Robust Approach to Continuous Authentication Amidst Real-World Adversarial Challenges"
+  authors:
+    - family-names: "Chen"
+      given-names: "Frank"
+    - family-names: "Xin"
+      given-names: "Jingyu"
+    - family-names: "Phoha"
+      given-names: "Vir V."
+  journal: "IEEE Transactions on Biometrics, Behavior, and Identity Science"
+  volume: 6
+  issue: 2
+  start: 245
+  end: 260
+  year: 2024
+  doi: "10.1109/TBIOM.2024.3369590"

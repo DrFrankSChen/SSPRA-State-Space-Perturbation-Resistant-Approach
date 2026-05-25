@@ -1,0 +1,29 @@
+# Python caches and build artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+*.egg-info/
+
+# Local environments
+.venv/
+venv/
+
+# Local datasets and generated outputs
+data/
+outputs/
+*.zip
+*.log
+
+# Local verification files
+tests/
+scripts/check_assets.py
+scripts/check_environment.py
+
+# OS/editor metadata
+.DS_Store
+*.swp
+*.swo
