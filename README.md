@@ -8,6 +8,8 @@ Official code repository for **SSPRA (State-Space Perturbation-Resistant Approac
 
 Continuous authentication systems must make reliable decisions over time while operating under realistic deployment conditions, including noisy sensor measurements, temporary modality disconnection, missing observations, and adversarial behavior. Existing continuous authentication models often treat each authentication window independently, which can make the system sensitive to transient perturbations and unstable evidence from individual modalities.
 
+[![SSPRA overview figure](assets/figures/figure-1.png)](assets/figures/Figure-1.pdf)
+
 SSPRA addresses these challenges with a state-space temporal monitoring framework. At each inspection time, SSPRA fuses authentication evidence from all currently available modalities, allowing the system to continue monitoring when some modalities are temporarily absent or unreliable. Instead of making each decision from the current authentication scores alone, SSPRA also incorporates the previous system state and the elapsed time between inspections, capturing the temporal continuity of behavioral biometric evidence. The framework updates the probabilities of three system states: **Safe**, **Suspense**, and **Attacked**. It is modality-agnostic and can operate on any modality that provides intra-user and inter-user likelihood evidence. 
 
 In this repository, we provide a runnable BB-MAS Stage 2 gait demo using HandPhone and PocketPhone accelerometer/gyroscope streams.
